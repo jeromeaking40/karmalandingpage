@@ -1,0 +1,33 @@
+/*BUTTONS*/
+.introduction .buttons {
+    color     : $primary-color;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+
+button {
+    background-color: $secondary-color;
+    text-shadow     : none;
+    border-radius   : 4px;
+    color           : $primary-color;
+    font-size       : 1.125rem;
+    text-align      : center;
+    border-color    : $secondary-color;
+    border-style    : none;
+    margin          : auto 0;
+    padding         : 1rem 1.25rem;
+    font-family     : Roboto;
+}
+
+.big-button {
+    text-shadow     : none;
+    border-radius   : 4px;
+    line-height     : 2;
+    width           : 22rem;
+    background-color: $secondary-color;
+    display         : inline-block;
+    border-color    : $secondary-color;
+    border-style    : none;
+    margin          : 1.25px rem 0 0 auto 0;
+    padding         : 16px 26px;
+}

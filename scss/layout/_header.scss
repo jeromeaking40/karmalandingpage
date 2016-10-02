@@ -1,0 +1,43 @@
+/*NAVIGATION*/
+.top-navigation {
+    background-color: $primary-color;
+    position        : fixed;
+    width           : 100%;
+    border-bottom   : 1px solid #DDD;
+    z-index         : 9999;
+
+    > content {
+        width : 970px;
+        height: 4.375rem;
+        margin: 0 auto;
+    }
+
+    .logo {
+        height: 4.375rem;
+    }
+
+    .links {
+        float         : right;
+        margin-top    : 1.7rem;
+        font-family   : Roboto, sans-serif;
+        font-size     : 16px;
+        color         : #838994;
+        letter-spacing: 0.03em;
+    }
+
+    li {
+        display    : inline-block;
+        margin-left: 1.563rem;
+    }
+
+    .active {
+        color      : #4c5058;
+        font-weight: 600;
+    }
+
+    .hover {
+        cursor: pointer;
+        color : #333;
+    }
+}
+/* END OF NAVIGATION*/
